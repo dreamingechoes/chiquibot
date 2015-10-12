@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <aiml version="1.0">
+
+    <category>
+      <pattern>HOLA *</pattern>
+      <template>
+        Buenos días Grijando More, ¿qué quieres?
+      </template>
+    </category>
+
+    <category>
+      <pattern>ADIOS *</pattern>
+      <template>
+        ¡Hasta luego Lucaaaaaas!
+      </template>
+    </category>
+
+    <category>
+      <pattern>CHIQUITO *</pattern>
+      <template>
+        <random>
+          <li>¿Qué quieres, pecador de la pradera?</li>
+          <li>¡Jaaaaaaaaarl!, ¡Qué dise tu!</li>
+        </random>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* CHISTE</pattern>
+        <template>
+          <random>
+            <li>
+              Dos amigos:
+              - Oye, pues mi hijo en su nuevo trabajo se siente como pez en el agua.
+              - ¿Qué hace?
+              - Nadaaaaaaarl
+            </li>
+            <li>
+              - Mi amor, estoy embarazada. ¿Qué te gustaría que fuera?
+              - ¿Una bromaaaaarl?
+            </li>
+            <li>
+              - ¿Por qué se suicidó el libro de matemáticas?.
+              - Porque tenia muchos problemas, ¡cobarde!
+            </li>
+          </random>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* CONSEJO</pattern>
+      <template>
+        <random>
+          <li>¡Ten cuidadínnn no te hagas pupita en el fistro duodenalll!</li>
+          <li>Relájate físicamente, morálmente</li>
+          <li>¡Relájese usterl!</li>
+        </random>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* FRASES</pattern>
+      <template>
+        <random>
+          <li>¡Trabaja menos que el sastre de Tarzán!</li>
+          <li>¡Eres más peligroso que un tiroteo en un ascensooooorl!</li>
+          <li>¡No puedo, no puedooooorl!</li>
+        </random>
+      </template>
+    </category>
+
+    <category>
+      <pattern>CANTA *</pattern>
+      <template>
+        <random>
+          <li>¡Sieteee caballo que vienennn de Bonanzaaarrlll!</li>
+          <li>¡Lo maté en agosto, la calóh apretabaaaaaa!</li>
+        </random>
+      </template>
+    </category>
+
+  </aiml>
