@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  root to: 'visitors#index'
+  get 'ask_chiquito', to: 'application#ask_chiquito'
+
+  root to: 'application#index'
 end
