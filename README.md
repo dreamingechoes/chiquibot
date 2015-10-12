@@ -42,8 +42,8 @@ To start using this bot, you only have to do the typical ***Rails*** things:
 ```sh
 user@computer:~$ git clone git@github.com:dreamingechoes/chiquibot.git
 user@computer:~$ cd chiquibot
-user@computer:/chiquibot$ rake db:setup
 user@computer:/chiquibot$ bundle install
+user@computer:/chiquibot$ rake db:setup
 ```
 
 * When all this finish, you're ready to launch the app!
@@ -54,7 +54,7 @@ user@computer:/chiquibot$ rails s
 
 * Open your web browser and go to [http://localhost:3000](http://localhost:3000) like in all the regular ***Rails*** apps.
 
-*Note: please, try only talk to Chiquito in Spanish, ¡pecador de la pradera! :) *
+*Note: please, try only talk to Chiquito in Spanish, ¡pecador de la pradera! :)*
 
 Usage
 -------------------------
