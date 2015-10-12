@@ -1,18 +1,18 @@
-<%# navigation styled for Bootstrap 3.0 %>
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <button aria-controls="navbar" aria-expanded="false" class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <%= link_to 'Home', root_path, class: 'navbar-brand' %>
+      <%= link_to 'Chiquibot', page_path('index'), class: 'navbar-brand' %>
     </div>
-    <div class="collapse navbar-collapse">
+    <div class="collapse navbar-collapse" id="navbar">
       <ul class="nav navbar-nav">
-        <%= render 'layouts/navigation_links' %>
+        <li><%= link_to 'Home', page_path('index') %></li>
+        <li><%= link_to 'About', page_path('about') %></li>
       </ul>
     </div>
   </div>

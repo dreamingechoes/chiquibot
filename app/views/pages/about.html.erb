@@ -1,7 +1,20 @@
-<% content_for :title do %>About<% end %>
-<h3>About the Website</h3>
-<p>
-This web application was created with
-<%= link_to('Rails Composer', 'http://railsapps.github.io/rails-composer/') %>
-from the <%= link_to('RailsApps project', 'http://railsapps.github.io/') %>.
-</p>
+<h1>About the Website</h1>
+
+<div class="row home-row">
+  <iframe width="420" height="315" src="https://www.youtube.com/embed/Cvhvw0mBWus" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div class="row home-row">
+  <p>
+    This is an example of a conversational bot on Ruby on Rails. Was created with
+    <%= link_to('Rails Composer', 'http://railsapps.github.io/rails-composer/') %>
+    from the
+    <%= link_to('RailsApps project', 'http://railsapps.github.io/') %>.
+  </p>
+
+  <p>
+    If you want to know more about the guy who's inspired this bot, you can check his
+    <%= link_to 'Wikipedia', 'https://en.wikipedia.org/wiki/Chiquito_de_la_Calzada', target: '_blank' %>
+    entry or play the Youtube video above and see what's all about. Enjoy it! :D
+  </p>
+</div>
