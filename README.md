@@ -37,7 +37,7 @@ To start using this bot, you only have to do the typical ***Rails*** things:
 
 * Install ***Ruby*** version 2.2.2 (using [RVM](https://github.com/rvm/rvm) or [RBenv](https://github.com/sstephenson/rbenv) or whatever).
 
-2. Clone the repo and do the ***bundle install*** thing:
+* Clone the repo and do the ***bundle install*** thing:
 
 ```sh
 user@computer:~$ git clone git@github.com:dreamingechoes/chiquibot.git
